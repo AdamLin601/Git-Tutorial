@@ -14,7 +14,11 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         print(message)
-         
+        func reverse(text: String) -> String {
+            return String(text.reversed())
+        }
+        
+        print(reverse(text: "stressed"))
     }
 
     override func didReceiveMemoryWarning() {
