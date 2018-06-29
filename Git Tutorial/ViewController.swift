@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-   let message = "Hello git"
+    @IBOutlet weak var reverseLable: UILabel!
+    let message = "Hello git"
     override func viewDidLoad() {
         
         super.viewDidLoad()
